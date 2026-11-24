@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f4ee;
+    color: #242b25;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    padding: 32px 16px;
+    overflow-wrap: anywhere;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+}
+
+.card {
+    max-width: 440px;
+    margin: 24px auto;
+    background: #fff;
+}
+
+.card h2 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.card--park {
+    padding: 16px;
+    border: 1px solid #879387;
+}
+
+.card--river {
+    position: relative;
+    margin-top: 36px;
+    padding: 48px 24px 24px;
+    border: 3px solid #427363;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    padding: 2px 8px;
+    background: #e2efe8;
+    color: #244e40;
+    font-size: 13px;
+}
